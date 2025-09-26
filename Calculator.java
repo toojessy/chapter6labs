@@ -19,8 +19,9 @@ public class Calculator {
         return result;
     }
     public static String multiply (int num, String msg) {
+       String result = " ";
        for (int i = 0; i < num; i++) {
-           int result = i;
+            result += msg;
        }
        return result;
     }
