@@ -7,6 +7,7 @@ public class Calculator {
     // 3. Two double values
     // 4. An integer and a string (repeat the string that many times)
     public static int multiply (int num1, int num2) {
+        // multiply and return result
         int result = num1 * num2;
         return result;
     }
@@ -15,11 +16,14 @@ public class Calculator {
         return result;
     }
     public static Double multiply (double num1, double num2) {
+        // multiply and return result ad double
         Double result = num1 * num2;
         return result;
     }
     public static String multiply (int num, String msg) {
+        // initialize an empty string
        String result = " ";
+        // append msg to result num times
        for (int i = 0; i < num; i++) {
             result += msg;
        }
