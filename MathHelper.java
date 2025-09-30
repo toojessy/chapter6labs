@@ -6,6 +6,7 @@ public class MathHelper {
     // 1. Create a method called 'calculateSum' that takes two integers 
     //    and returns their sum
     public static int calculateSum(int num1, int num2) {
+        // add two numbers and store in result
         int result = num1 + num2;
         return result;
     }
@@ -13,13 +14,14 @@ public class MathHelper {
     //    and returns the smaller one
     public static int findMin(int num1, int num2) {
         int result;
+        // compare 2 numbers
         if (num1 < num2) {
-            result = num1;
+            result = num1; //num 1 is smaller
         }
         else{
-            result = num2;
+            result = num2; //num 2 is smaller
         }
-        return result;
+        return result; // returns smaller number
     }
     
     // 3. Create a void method called 'printResult' that takes an integer 
