@@ -1,7 +1,7 @@
 # chapter6labs
 Questions to answer:
 
-## Why doesn't the integer change after the method call? 
+### Why doesn't the integer change after the method call? 
 Because Java passes primitive types by value — the method receives a copy of the integer, so changes made inside the method do not affect the original variable.
 
 ## Why does the array change after the method call?
